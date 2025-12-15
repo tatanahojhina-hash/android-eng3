@@ -7,3 +7,5 @@ public class main {
         System.out.print("Введите цену товара (в руб.):"); 
         Int price = scanner.nextInt();
   
+        System.out.print("Введите вес товара (в кг):"); 
+        int weight = scanner.nextInt();
