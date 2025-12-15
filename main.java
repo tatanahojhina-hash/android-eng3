@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class main {
-    Public static void main(String[] args) { 
+    public static void main(String[] args) { 
         Scanner scanner = new Scanner(System.in); 
  
         System.out.print("Введите цену товара (в руб.):"); 
@@ -9,3 +9,8 @@ public class main {
   
         System.out.print("Введите вес товара (в кг):"); 
         int weight = scanner.nextInt();
+
+        Int duty = calculateCustoms(price, weight); 
+        System.out.println("Размер пошлины (в руб.) составит: " + duty); 
+    }
+}
